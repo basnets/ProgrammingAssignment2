@@ -1,11 +1,11 @@
-## The functions are used to create a special object that stores a numeric vector 
-## and cache's its mean.
+## The functions are used to create a special object that stores matrix inverse
+## and cache's its inverse.
 
 ## This function creates a special "matrix" object that can cache its inverse.
-## 1. set the value of the vector
-## 2. get the value of the vector
-## 3. set the value of the mean
-## 4. get the value of the mean
+## 1. set the value of the matrix
+## 2. get the value of the matrix
+## 3. set the value of the inverse
+## 4. get the value of the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
